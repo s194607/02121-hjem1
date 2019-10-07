@@ -8,9 +8,14 @@
             top=1cm,
             right=5cm,
             bottom=5cm]{geometry}
+\graphicspath{ {./images/} }
+
+
 \title{\huge Boblesortering}
 \author{Patrick Clemmensen, s194706 \and Navn2, s191111 \and Navn3, s192222 \and Navn4, s194444}
 \date{1. oktober 2019}
+
+
 
 \begin{document}
 \maketitle
@@ -51,7 +56,25 @@ Antallet af sammenligninger, som boblesortering udfører på en tabel af længde
 I bedste fald er antallet \textit{n-1}. Se tabel 1.
 \newpage
 
+\begin{center}
+\includegraphics[scale=0.5]{images/image.png}
+\vspace{0.3 cm}
+\\Figur 1: Illustration af boblesortering\\
+\vspace{0.3 cm}
+\begin{tabular}{ |c|c|c| } 
+ \hline
+ \textbf{Værst} & \textit{n(n-1)/2} \\ 
+ \hline
+ \textbf{Bedst} & \textit{n-1}\\ 
+ \hline
+\end{tabular}
+\vspace{0.3 cm}
+\\Tabel 1: Antal sammenligninger for boblesortering.
+\end{center}
 
+\section{Videre Læsning}
+For en komplet introduktion til boblesortering og relaterede sorteringsalgoritmer
+se Knuth \cite{1}.
 
 
 \begin{thebibliography}{}
